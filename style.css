@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --black: #1c2a39;
+  --gray: #5c6a79;
+  --purple: #4c3db2;
+  --bookTitleSize:16px;
+}
+section{
+  background-color:#ebbf9fbd;
+  position: sticky;
+  top:0px;
+  z-index: 5 !important;
+}
+.navbar ul li{
+  color:black;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: relative;
+  
+}
+.navbar ul li:nth-child(3){
+  position: relative;
+  z-index: 7;
+}
+.navbar ul li:nth-child(3):hover .drop{
+  opacity: 1;
+  visibility: visible;
+}
+.drop{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  top:40px;
+  left:0;
+  background-color: #5ec7c298;
+  width: 180px;
+  height: 80px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 1s all linear;
+}
+.drop ul li{
+  list-style-type: none;
+  margin-bottom: 6px;
+}
+
+.title{
+  border-left: 2px solid black;
+  
+  margin-bottom: 2px;
+}
+.navbar ul li:after{
+  content: "";
+  height: 2px;
+  width: 0;
+  background-color:black;
+  position: absolute;
+  bottom:-5px;
+  left:0;
+  transition: all 250ms linear;
+}
+.navbar ul li:hover:after{
+  width: 100%;
+  left:0;
+
+}
+/* .navbar ul li:nth-child(3){
+  content: "<ul><li>home</li></ul>";
+  height: 2px;
+  width: 20px;
+  background-color:black;
+  position: absolute;
+  bottom:-5px;
+  left:0;
+  transition: all 250ms linear;
+} */
+.navbar{
+  height: 50px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  
+}
+.kindOfBook ,.userTag{
+  display: flex;
+  gap:10px;
+  list-style-position:inside ;
+  font-size: 18px;
+  color:var(--gray);
+  list-style-type: none;
+  cursor:pointer;
+
+}
+
+.kindOfBook li:active{
+  color:var(--black);
+  font-weight: 500;
+
+}
+.userTag{
+  position: relative;
+}
+.userTag li{
+  color:var(--black);
+  font-size: 19px;
+}
+
+.bagCount{
+  width: 18px;
+  height: 18px;
+  color:white;
+  font-size: 14px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  bottom:0;
+  right: -8px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.carousel{
+  width: 80%;
+  margin: 0 auto;
+}
+.carousel-item img{
+  max-height: 700px;
+
+}
+
+.store{
+  width: 80%;
+  margin: 20px auto;
+  height: 400px;
+  position: relative;
+  
+}
+.bookCard{
+  
+
+  
+}
+.bookimg{
+  width: 225px;
+}
+.bi-star-fill{
+  color:#eeedf5;
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+.bi-star-fill.active{
+  color:red
+}
+.fos{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fw-bold{
+  font-weight: bold;
+}
+
+.grayTitle{
+  color:var(--gray);
+  font-size:var(--bookTitleSize)
+}
+
+.blackTitle{
+  color:black;
+  font-size: 20px;
+}
+.book_dicription{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+  text-overflow: ellipsis;
+}
+.price{
+  font-size: 1.2rem;
+}
+.oldPrice{
+  color:#5EC7C2;
+  font-size:1rem
+}
+.basketButton{
+  width: 240px;
+  padding: 7px;
+  background-color: white;
+  color:#5645BB;
+  cursor:pointer;
+  transition: all 250ms ease-in-out;
+}
+.basketButton:hover{
+  background-color: #5645BB;
+  color:white;
+
+}
+.bookside{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tera{
+  display: flex;
+ 
+
+}
+
+
+.filter_bcg{
+background-color: #F1F1F6;
+width: 500px;
+height: 600px;
+position: absolute;
+left: -165px;
+top:0;
+z-index: -2;
+}
+.filter{
+  min-height: 250px;
+}
+.filter ul li{
+  list-style-type: none;
+  cursor:pointer;
+  color:black;
+  margin-bottom: 10px;
+  
+}
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 220px;
+  left:-35px;
+  cursor: pointer;
+  z-index: 6;
+  
+
+}
+.filter_active{
+  font-size: 1.03rem;
+  font-weight: bolder;
+}
+.bi-bookmark-fill{
+  color:black !important;
+  padding-right: 5px;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-control-next{
+  margin-right: -30px !important;
+}
+.carousel-control-prev{
+  margin-left: -30px !important;
+
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.menu_links{
+ 
+  width: 220px;
+}
+.sepet_area{
+  position: fixed;
+  top:0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 6;
+  background-color: rgba(0, 0, 0, 0.383);
+  display: none;
+  transition: height 0.5s ease-in-out;
+}
+.sepetfix{
+  height: 100%;
+  width: 450px;
+  background-color: white;
+  float:right;
+  position: relative;
+  z-index: 6 !important;
+  transition: height 0.5s ease-in-out;
+}
+.bi-x-square-fill{
+  position: absolute;
+  left: 10px;
+  top:10px;
+  font-size: 1.2rem;
+  color:red
+
+}
+.bi-x-square-fill:hover{
+transform: scale(1.1);
+}
+.sepet_items{
+  width: 400px;
+  height: 220px;
+  margin: 10px auto;
+  
+}
+.product{
+  display: flex;
+  gap:5px;
+  height: 120px;
+  justify-content: space-between;
+  align-items: last baseline;
+  margin-top: 120px;
+
+}
+.product_detail{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  
+  
+ 
+}
+
+.butons_area{
+  font-size: 1.3rem;
+  
+}
+.product img{
+  width:150px;
+  height: 160px;
+  background-color:gray;
+  padding: 4px  ;
+}
+.butons_area{
+  height: 100px;
+}
+.products{
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 600px;
+}
+.total{
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 40%;
+}
+.pricebottom{
+  display: absolute;
+  bottom:40px
+}
+.bi-plus , .bi-dash , .sepet_remove{
+  cursor:pointer
+}
+#sepetBosMesaji{
+  display: none;
+}
