@@ -10,7 +10,7 @@
     "reviewCount": 1938,
     "stock": 1881,
     "imgSource": "./assets/images/books/nutuk.jpg",
-    "type": "HISTORY"
+    "type": "Tarih"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "reviewCount": 330,
     "stock": 7,
     "imgSource": "./assets/images/books/hayvan-ciftligi.jpg",
-    "type": "NOVEL"
+    "type": "Roman"
   },
   {
     "id": 3,
@@ -49,7 +49,7 @@
     "reviewCount": 560,
     "stock": 6,
     "imgSource": "./assets/images/books/alayci-kus.jpg",
-    "type": "NOVEL"
+    "type": "Roman"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
     "reviewCount": 410,
     "stock": 450,
     "imgSource": "./assets/images/books/hep-hayir-diyen-cocuk.jpg",
-    "type": "CHILDREN"
+    "type": "Kids"
   },
   {
     "id": 6,
@@ -75,7 +75,7 @@
     "reviewCount": 145,
     "stock": 321,
     "imgSource": "./assets/images/books/avucunuzdaki-kelebek.jpg",
-    "type": "SELFIMPROVEMENT"
+    "type": "Kids"
   },
   {
     "id": 7,
@@ -88,7 +88,7 @@
     "reviewCount": 173,
     "stock": 73,
     "imgSource": "./assets/images/books/kumarbaz.jpg",
-    "type": "NOVEL"
+    "type": "Kids"
   },
 
   {
@@ -102,7 +102,7 @@
     "reviewCount": 189,
     "stock": 89,
     "imgSource": "./assets/images/books/utangac-ayi-monti.jpg",
-    "type": "CHILDREN"
+    "type": "Kids"
   },
   {
     "id": 9,
@@ -115,7 +115,7 @@
     "reviewCount": 78,
     "stock": 80,
     "imgSource": "./assets/images/books/kara-delikler.jpg",
-    "type": "SCIENCE"
+    "type": "Kids"
   },
   {
     "id": 10,
@@ -128,7 +128,7 @@
     "reviewCount": 250,
     "stock": 14,
     "imgSource": "./assets/images/books/insan-gelecegini-nasil-kurar.jpg",
-    "type": "SELFIMPROVEMENT"
+    "type": "Tarih"
   },
   {
     "id": 11,
@@ -141,7 +141,7 @@
     "reviewCount": 480,
     "stock": 490,
     "imgSource": "./assets/images/books/sapiens.jpg",
-    "type": "HISTORY"
+    "type": "Tarih"
   },
   {
     "id": 12,
@@ -154,6 +154,6 @@
     "reviewCount": 930,
     "stock": 143,
     "imgSource": "./assets/images/books/savas-ve-baris.jpg",
-    "type": "NOVEL"
+    "type": "Tarih"
   }
 ]

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaliteli | Kitap Mağazası</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+       <!-- NAVBAR START -->
+    <nav class="navbar">
+      <h2 class="title">BookStore</h2>
+      <ul class="kindOfBook">
+        <li>Kitaplar</li>
+        <li>SesliKitaplar</li>
+        <li>Üniversite Kitapları
+          <div class="drop">
+            <ul><li>AYT KİTAPLARI</li>
+            <li>TYT KİTAPLARI</li></ul>
+          </div>
+        </li>
+        <li>Hakkımızda</li>
+        <li>İletişim</li>
+      </ul>
+      <ul class="userTag">
+        <li><i class="bi bi-person"></i></li>
+        <li><i class="bi bi-search"></i></li>
+        <li><i class="bi bi-bag"></i>
+        <span class="bagCount">0</span></li>
+      </ul>
+    </nav>
+    <!-- NAVBAR END -->
+
+    </section>
+
+   <!-- Carousel Start -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" class="bg-dark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" class="bg-dark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/images/isbnk0810p.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-black">
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/can0210p.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/ykb0210p.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-black">
+            
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Carusel end -->
+
+    <!-- Store Start -->
+    <main class="store">
+      <div class="filter_bcg">
+        </div>
+        <div class="filter">
+          <ul class="menu_links">
+            <li >Tümü</li>
+            <li>Kişisel Gelişim</li>
+            <li>Piskolojik</li>
+            <li>Tarihsel</li>
+            <li>Fiyatına Göre Sırala</li>
+          </ul>
+        
+      </div>
+      <div class="row pt-5 booksStore ">
+        <div class="col-5 offset-2 mb-5 tera">
+          <div class="row bookCard">
+            <div class="col-6">
+              <img class="bookimg img-fluid shadow" src="./assets/images/books/995-km-651445283a356.webp" alt="murathan_mungan">
+            </div>
+            <div class="col-6 bookside">
+              <div>
+                <span class="fos  blackTitle fw-bolder fs-5">Murathan Mungan</span><br>
+                <span class="blackTitle bookname">995 Km</span><br>
+                <span><i class="bi bi-star-fill active"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                    </span>
+                    <span>300 reviews</span>
+                  </div>
+                  <p class="book_dicription fod gray mt-3">Murathan Mungan’dan bu kez sürükleyici bir kara polisiye.
+
+                    Hiçbir şeyin göründüğü gibi olmadığı ama karmaşık görünenin de sonuçta su gibi açık olduğu bir siyasi/psikolojik ortam yaratıyor Mungan. Edebiyatımızda ender rastlanan, beklenmedik bir başkahramanın peşinde, ülkenin yakın geçmişinden tanıdık gelebilecek karmaşık ağların izini sürüyor. Kimi düğümleri çözüp yeni düğümler atarken okuru da nefes nefese bir yolculuğa davet ediyor.
+                    </p>
+                    <div>
+                      <span class="fw-bolder text-black price me-2">130TL</span>
+                      <sup>
+                        <del class="oldPrice fw-bolder">210TL</del>
+                      </sup>
+                      
+                    </div>
+                    <button class="basketButton mt-2 fw-bolder" >Sepete Ekle</button>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-5">
+          <div class="row bookCard">
+            <div class="col-6">
+              <img class="bookimg img-fluid shadow" src="./assets/images/books/cumhuriyetin-ilk-sabahi-6464eca792627.webp" alt="murathan_mungan">
+            </div>
+            <div class="col-6 bookside">
+              <div>
+                <span class="fos blackTitle bookname fw-bolder fs-5">İlber Ortaylı</span><br>
+                <span class="blackTitle">Cumhuriyet'in İlk Sabahı</span><br>
+                <span><i class="bi bi-star-fill active"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                    </span>
+                    <span>200 reviews</span>
+                  </div>
+                  <p class="book_dicription fod gray mt-3">Tarih 23 Nisan 1920. Büyük Millet Meclisi binasının önünde adım atacak yer yok. Kalabalığın gerisinde bir tezgâh göze çarpıyor. Önünde bir çocuk, kimbilir belki bir seyyar satıcı. Annesi var mı, babası sağ mı? Vatan yorgun, halk yoksul, umutlar yitip gitmişken bir çocuk nasıl yaşar hayatı? 
+
+                    Çocuk edebiyatımızın üretken ve sevilen yazarlarından Şermin Yaşar, bizi şerbetçi bir çocuğun gözünden Kurtuluş Savaşı yıllarına götürüyor. Gökçe Akgül’ün incelikli çizimleri eşliğinde seferberliği, ulu önderimiz Mustafa Kemal Atatürk’ün izinde yavaş yavaş yeşeren ümidi, toplumdaki değişimi, yoklukla geçen günleri ve beklenen zaferi hep birlikte yaşayacağız. Türk tarihçiliğinin büyük ismi İlber Ortaylı’nın Millî Mücadele günlerinin tarihi yönlerine tuttuğu ışığın aydınlığında Cumhuriyet’in ilk sabahını beraber karşılayacağız.
+                    </p>
+                    <div>
+                      <span class="fw-bolder text-black price me-2">130TL</span>
+                      <sup>
+                        <del class="oldPrice fw-bolder">210TL</del>
+                      </sup>
+                      
+                    </div>
+                    <button class="basketButton mt-2 fw-bolder" >Sepete Ekle</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 offset-2 mb-5 tera">
+          <div class="row bookCard">
+            <div class="col-6">
+              <img class="bookimg img-fluid shadow" src="./assets/images/books/gece-yarisi-kutuphanesi-64379176af2e2.webp" alt="murathan_mungan">
+            </div>
+            <div class="col-6 bookside">
+              <div>
+                <span class="fos blackTitle fw-bolder fs-5">Murathan Mungan</span><br>
+                <span class="blackTitle bookname">995 Km</span><br>
+                <span><i class="bi bi-star-fill active"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                    </span>
+                    <span>300 reviews</span>
+                  </div>
+                  <p class="book_dicription fod gray mt-3">Murathan Mungan’dan bu kez sürükleyici bir kara polisiye.
+
+                    Hiçbir şeyin göründüğü gibi olmadığı ama karmaşık görünenin de sonuçta su gibi açık olduğu bir siyasi/psikolojik ortam yaratıyor Mungan. Edebiyatımızda ender rastlanan, beklenmedik bir başkahramanın peşinde, ülkenin yakın geçmişinden tanıdık gelebilecek karmaşık ağların izini sürüyor. Kimi düğümleri çözüp yeni düğümler atarken okuru da nefes nefese bir yolculuğa davet ediyor.
+                    </p>
+                    <div>
+                      <span class="fw-bolder text-black price me-2">130TL</span>
+                      <sup>
+                        <del class="oldPrice fw-bolder">210TL</del>
+                      </sup>
+                      
+                    </div>
+                    <button class="basketButton mt-2 fw-bolder" >Sepete Ekle</button>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-5">
+          <div class="row bookCard">
+            <div class="col-6">
+              <img class="bookimg img-fluid shadow" src="./assets/images/books/avucunuzdaki-kelebek.jpg" alt="murathan_mungan">
+            </div>
+            <div class="col-6 bookside">
+              <div>
+                <span class="fos blackTitle fw-bolder fs-5">Ahmet Şeref İzgören</span><br>
+                <span class="blackTitle bookname">Avucumuzdaki Kelebek</span><br>
+                <span><i class="bi bi-star-fill active"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                    </span>
+                    <span>200 reviews</span>
+                  </div>
+                  <p class="book_dicription fod gray mt-3">Tarih 23 Nisan 1920. Büyük Millet Meclisi binasının önünde adım atacak yer yok. Kalabalığın gerisinde bir tezgâh göze çarpıyor. Önünde bir çocuk, kimbilir belki bir seyyar satıcı. Annesi var mı, babası sağ mı? Vatan yorgun, halk yoksul, umutlar yitip gitmişken bir çocuk nasıl yaşar hayatı? 
+
+                    Çocuk edebiyatımızın üretken ve sevilen yazarlarından Şermin Yaşar, bizi şerbetçi bir çocuğun gözünden Kurtuluş Savaşı yıllarına götürüyor. Gökçe Akgül’ün incelikli çizimleri eşliğinde seferberliği, ulu önderimiz Mustafa Kemal Atatürk’ün izinde yavaş yavaş yeşeren ümidi, toplumdaki değişimi, yoklukla geçen günleri ve beklenen zaferi hep birlikte yaşayacağız. Türk tarihçiliğinin büyük ismi İlber Ortaylı’nın Millî Mücadele günlerinin tarihi yönlerine tuttuğu ışığın aydınlığında Cumhuriyet’in ilk sabahını beraber karşılayacağız.
+                    </p>
+                    <div>
+                      <span class="fw-bolder text-black price me-2">130TL</span>
+                      <sup>
+                        <del class="oldPrice fw-bolder">210TL</del>
+                      </sup>
+                      
+                    </div>
+                    <button class="basketButton mt-2 fw-bolder" >Sepete Ekle</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 offset-2  mb-5 tera">
+          <div class="row bookCard">
+            <div class="col-6">
+              <img class="bookimg img-fluid shadow" src="./assets/images/books/savas-ve-baris.jpg" alt="murathan_mungan">
+            </div>
+            <div class="col-6 bookside">
+              <div>
+                <span class="fos blackTitle fw-bolder fs-5">Murathan Mungan</span><br>
+                <span class="blackTitle bookname">995 Km</span><br>
+                <span><i class="bi bi-star-fill active"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                    </span>
+                    <span>300 reviews</span>
+                  </div>
+                  <p class="book_dicription fod gray mt-3">Murathan Mungan’dan bu kez sürükleyici bir kara polisiye.
+
+                    Hiçbir şeyin göründüğü gibi olmadığı ama karmaşık görünenin de sonuçta su gibi açık olduğu bir siyasi/psikolojik ortam yaratıyor Mungan. Edebiyatımızda ender rastlanan, beklenmedik bir başkahramanın peşinde, ülkenin yakın geçmişinden tanıdık gelebilecek karmaşık ağların izini sürüyor. Kimi düğümleri çözüp yeni düğümler atarken okuru da nefes nefese bir yolculuğa davet ediyor.
+                    </p>
+                    <div>
+                      <span class="fw-bolder text-black price me-2">130TL</span>
+                      <sup>
+                        <del class="oldPrice fw-bolder">210TL</del>
+                      </sup>
+                      
+                    </div>
+                    <button class="basketButton mt-2 fw-bolder" >Sepete Ekle</button>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-5">
+          <div class="row bookCard">
+            <div class="col-6">
+              <img class="bookimg img-fluid shadow" src="./assets/images/books/kumarbaz.jpg" alt="murathan_mungan">
+            </div>
+            <div class="col-6 bookside">
+              <div>
+                <span class="fos blackTitle fw-bolder fs-5">İlber Ortaylı</span><br>
+                <span class="blackTitle bookname">Cumhuriyet'in İlk Sabahı</span><br>
+                <span><i class="bi bi-star-fill active"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                    </span>
+                    <span>200 reviews</span>
+                  </div>
+                  <p class="book_dicription fod gray mt-3">Tarih 23 Nisan 1920. Büyük Millet Meclisi binasının önünde adım atacak yer yok. Kalabalığın gerisinde bir tezgâh göze çarpıyor. Önünde bir çocuk, kimbilir belki bir seyyar satıcı. Annesi var mı, babası sağ mı? Vatan yorgun, halk yoksul, umutlar yitip gitmişken bir çocuk nasıl yaşar hayatı? 
+
+                    Çocuk edebiyatımızın üretken ve sevilen yazarlarından Şermin Yaşar, bizi şerbetçi bir çocuğun gözünden Kurtuluş Savaşı yıllarına götürüyor. Gökçe Akgül’ün incelikli çizimleri eşliğinde seferberliği, ulu önderimiz Mustafa Kemal Atatürk’ün izinde yavaş yavaş yeşeren ümidi, toplumdaki değişimi, yoklukla geçen günleri ve beklenen zaferi hep birlikte yaşayacağız. Türk tarihçiliğinin büyük ismi İlber Ortaylı’nın Millî Mücadele günlerinin tarihi yönlerine tuttuğu ışığın aydınlığında Cumhuriyet’in ilk sabahını beraber karşılayacağız.
+                    </p>
+                    <div>
+                      <span class="fw-bolder text-black price me-2">130TL</span>
+                      <sup>
+                        <del class="oldPrice fw-bolder">210TL</del>
+                      </sup>
+                      
+                    </div>
+                    <button class="basketButton mt-2 fw-bolder" >Sepete Ekle</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+    <!-- bookSore end -->
+
+    <!-- sepet start -->
+    <div class="sepet_area">
+      <div class="sepetfix">
+        <i class="bi bi-x-square-fill"></i>
+        <h2 class="text-center mt-5">Sepetindeki Ürünler</h2>
+        <h5 id="sepetBosMesaji" class="text-center mt-3">Sepetiniz Boş...</h5>
+        <!-- sepet içindekiler Başlangıç -->
+        <div class="sepet_items">
+          <div class="products">
+            
+          </div>
+        
+  
+      </div>
+      <!-- sepet içindekiler bitiş -->
+      <div class="total">
+        <div class="total2">
+          <div class="price text-center mb-3">130</div>
+        <button class="btn btn-danger p-3 fw-bolder">ÖDEME YAP</button>
+
+        </div>
+        
+      </div>
+
+      
+
+    </div>
+    <script
+      type="text/javascript"
+      src="assets/bootstrap/js/bootstrap.min.js"
+    ></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

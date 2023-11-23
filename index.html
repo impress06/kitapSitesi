@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kaliteli | Kitap Mağazası</title>
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/toastr/toastr.css">
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
     <section>
@@ -82,209 +84,15 @@
         <div class="filter">
           <ul class="menu_links">
             <li >Tümü</li>
-            <li>Kişisel Gelişim</li>
-            <li>Piskolojik</li>
-            <li>Tarihsel</li>
-            <li>Fiyatına Göre Sırala</li>
+            <li>Tarih</li>
+            <li>Roman</li>
+            <li>Kids</li>
+            
           </ul>
         
       </div>
       <div class="row pt-5 booksStore ">
-        <div class="col-5 offset-2 mb-5 tera">
-          <div class="row bookCard">
-            <div class="col-6">
-              <img class="bookimg img-fluid shadow" src="./assets/images/books/995-km-651445283a356.webp" alt="murathan_mungan">
-            </div>
-            <div class="col-6 bookside">
-              <div>
-                <span class="fos  blackTitle fw-bolder fs-5">Murathan Mungan</span><br>
-                <span class="blackTitle bookname">995 Km</span><br>
-                <span><i class="bi bi-star-fill active"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                    </span>
-                    <span>300 reviews</span>
-                  </div>
-                  <p class="book_dicription fod gray mt-3">Murathan Mungan’dan bu kez sürükleyici bir kara polisiye.
-
-                    Hiçbir şeyin göründüğü gibi olmadığı ama karmaşık görünenin de sonuçta su gibi açık olduğu bir siyasi/psikolojik ortam yaratıyor Mungan. Edebiyatımızda ender rastlanan, beklenmedik bir başkahramanın peşinde, ülkenin yakın geçmişinden tanıdık gelebilecek karmaşık ağların izini sürüyor. Kimi düğümleri çözüp yeni düğümler atarken okuru da nefes nefese bir yolculuğa davet ediyor.
-                    </p>
-                    <div>
-                      <span class="fw-bolder text-black price me-2">130TL</span>
-                      <sup>
-                        <del class="oldPrice fw-bolder">210TL</del>
-                      </sup>
-                      
-                    </div>
-                    <button class="basketButton mt-2 fw-bolder" >Sepete Ekle</button>
-            </div>
-          </div>
-          
-        </div>
-        <div class="col-5">
-          <div class="row bookCard">
-            <div class="col-6">
-              <img class="bookimg img-fluid shadow" src="./assets/images/books/cumhuriyetin-ilk-sabahi-6464eca792627.webp" alt="murathan_mungan">
-            </div>
-            <div class="col-6 bookside">
-              <div>
-                <span class="fos blackTitle bookname fw-bolder fs-5">İlber Ortaylı</span><br>
-                <span class="blackTitle">Cumhuriyet'in İlk Sabahı</span><br>
-                <span><i class="bi bi-star-fill active"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                    </span>
-                    <span>200 reviews</span>
-                  </div>
-                  <p class="book_dicription fod gray mt-3">Tarih 23 Nisan 1920. Büyük Millet Meclisi binasının önünde adım atacak yer yok. Kalabalığın gerisinde bir tezgâh göze çarpıyor. Önünde bir çocuk, kimbilir belki bir seyyar satıcı. Annesi var mı, babası sağ mı? Vatan yorgun, halk yoksul, umutlar yitip gitmişken bir çocuk nasıl yaşar hayatı? 
-
-                    Çocuk edebiyatımızın üretken ve sevilen yazarlarından Şermin Yaşar, bizi şerbetçi bir çocuğun gözünden Kurtuluş Savaşı yıllarına götürüyor. Gökçe Akgül’ün incelikli çizimleri eşliğinde seferberliği, ulu önderimiz Mustafa Kemal Atatürk’ün izinde yavaş yavaş yeşeren ümidi, toplumdaki değişimi, yoklukla geçen günleri ve beklenen zaferi hep birlikte yaşayacağız. Türk tarihçiliğinin büyük ismi İlber Ortaylı’nın Millî Mücadele günlerinin tarihi yönlerine tuttuğu ışığın aydınlığında Cumhuriyet’in ilk sabahını beraber karşılayacağız.
-                    </p>
-                    <div>
-                      <span class="fw-bolder text-black price me-2">130TL</span>
-                      <sup>
-                        <del class="oldPrice fw-bolder">210TL</del>
-                      </sup>
-                      
-                    </div>
-                    <button class="basketButton mt-2 fw-bolder" >Sepete Ekle</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-5 offset-2 mb-5 tera">
-          <div class="row bookCard">
-            <div class="col-6">
-              <img class="bookimg img-fluid shadow" src="./assets/images/books/gece-yarisi-kutuphanesi-64379176af2e2.webp" alt="murathan_mungan">
-            </div>
-            <div class="col-6 bookside">
-              <div>
-                <span class="fos blackTitle fw-bolder fs-5">Murathan Mungan</span><br>
-                <span class="blackTitle bookname">995 Km</span><br>
-                <span><i class="bi bi-star-fill active"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                    </span>
-                    <span>300 reviews</span>
-                  </div>
-                  <p class="book_dicription fod gray mt-3">Murathan Mungan’dan bu kez sürükleyici bir kara polisiye.
-
-                    Hiçbir şeyin göründüğü gibi olmadığı ama karmaşık görünenin de sonuçta su gibi açık olduğu bir siyasi/psikolojik ortam yaratıyor Mungan. Edebiyatımızda ender rastlanan, beklenmedik bir başkahramanın peşinde, ülkenin yakın geçmişinden tanıdık gelebilecek karmaşık ağların izini sürüyor. Kimi düğümleri çözüp yeni düğümler atarken okuru da nefes nefese bir yolculuğa davet ediyor.
-                    </p>
-                    <div>
-                      <span class="fw-bolder text-black price me-2">130TL</span>
-                      <sup>
-                        <del class="oldPrice fw-bolder">210TL</del>
-                      </sup>
-                      
-                    </div>
-                    <button class="basketButton mt-2 fw-bolder" >Sepete Ekle</button>
-            </div>
-          </div>
-          
-        </div>
-        <div class="col-5">
-          <div class="row bookCard">
-            <div class="col-6">
-              <img class="bookimg img-fluid shadow" src="./assets/images/books/avucunuzdaki-kelebek.jpg" alt="murathan_mungan">
-            </div>
-            <div class="col-6 bookside">
-              <div>
-                <span class="fos blackTitle fw-bolder fs-5">Ahmet Şeref İzgören</span><br>
-                <span class="blackTitle bookname">Avucumuzdaki Kelebek</span><br>
-                <span><i class="bi bi-star-fill active"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                    </span>
-                    <span>200 reviews</span>
-                  </div>
-                  <p class="book_dicription fod gray mt-3">Tarih 23 Nisan 1920. Büyük Millet Meclisi binasının önünde adım atacak yer yok. Kalabalığın gerisinde bir tezgâh göze çarpıyor. Önünde bir çocuk, kimbilir belki bir seyyar satıcı. Annesi var mı, babası sağ mı? Vatan yorgun, halk yoksul, umutlar yitip gitmişken bir çocuk nasıl yaşar hayatı? 
-
-                    Çocuk edebiyatımızın üretken ve sevilen yazarlarından Şermin Yaşar, bizi şerbetçi bir çocuğun gözünden Kurtuluş Savaşı yıllarına götürüyor. Gökçe Akgül’ün incelikli çizimleri eşliğinde seferberliği, ulu önderimiz Mustafa Kemal Atatürk’ün izinde yavaş yavaş yeşeren ümidi, toplumdaki değişimi, yoklukla geçen günleri ve beklenen zaferi hep birlikte yaşayacağız. Türk tarihçiliğinin büyük ismi İlber Ortaylı’nın Millî Mücadele günlerinin tarihi yönlerine tuttuğu ışığın aydınlığında Cumhuriyet’in ilk sabahını beraber karşılayacağız.
-                    </p>
-                    <div>
-                      <span class="fw-bolder text-black price me-2">130TL</span>
-                      <sup>
-                        <del class="oldPrice fw-bolder">210TL</del>
-                      </sup>
-                      
-                    </div>
-                    <button class="basketButton mt-2 fw-bolder" >Sepete Ekle</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-5 offset-2  mb-5 tera">
-          <div class="row bookCard">
-            <div class="col-6">
-              <img class="bookimg img-fluid shadow" src="./assets/images/books/savas-ve-baris.jpg" alt="murathan_mungan">
-            </div>
-            <div class="col-6 bookside">
-              <div>
-                <span class="fos blackTitle fw-bolder fs-5">Murathan Mungan</span><br>
-                <span class="blackTitle bookname">995 Km</span><br>
-                <span><i class="bi bi-star-fill active"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                    </span>
-                    <span>300 reviews</span>
-                  </div>
-                  <p class="book_dicription fod gray mt-3">Murathan Mungan’dan bu kez sürükleyici bir kara polisiye.
-
-                    Hiçbir şeyin göründüğü gibi olmadığı ama karmaşık görünenin de sonuçta su gibi açık olduğu bir siyasi/psikolojik ortam yaratıyor Mungan. Edebiyatımızda ender rastlanan, beklenmedik bir başkahramanın peşinde, ülkenin yakın geçmişinden tanıdık gelebilecek karmaşık ağların izini sürüyor. Kimi düğümleri çözüp yeni düğümler atarken okuru da nefes nefese bir yolculuğa davet ediyor.
-                    </p>
-                    <div>
-                      <span class="fw-bolder text-black price me-2">130TL</span>
-                      <sup>
-                        <del class="oldPrice fw-bolder">210TL</del>
-                      </sup>
-                      
-                    </div>
-                    <button class="basketButton mt-2 fw-bolder" >Sepete Ekle</button>
-            </div>
-          </div>
-          
-        </div>
-        <div class="col-5">
-          <div class="row bookCard">
-            <div class="col-6">
-              <img class="bookimg img-fluid shadow" src="./assets/images/books/kumarbaz.jpg" alt="murathan_mungan">
-            </div>
-            <div class="col-6 bookside">
-              <div>
-                <span class="fos blackTitle fw-bolder fs-5">İlber Ortaylı</span><br>
-                <span class="blackTitle bookname">Cumhuriyet'in İlk Sabahı</span><br>
-                <span><i class="bi bi-star-fill active"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                     <i class="bi bi-star-fill"></i>
-                    </span>
-                    <span>200 reviews</span>
-                  </div>
-                  <p class="book_dicription fod gray mt-3">Tarih 23 Nisan 1920. Büyük Millet Meclisi binasının önünde adım atacak yer yok. Kalabalığın gerisinde bir tezgâh göze çarpıyor. Önünde bir çocuk, kimbilir belki bir seyyar satıcı. Annesi var mı, babası sağ mı? Vatan yorgun, halk yoksul, umutlar yitip gitmişken bir çocuk nasıl yaşar hayatı? 
-
-                    Çocuk edebiyatımızın üretken ve sevilen yazarlarından Şermin Yaşar, bizi şerbetçi bir çocuğun gözünden Kurtuluş Savaşı yıllarına götürüyor. Gökçe Akgül’ün incelikli çizimleri eşliğinde seferberliği, ulu önderimiz Mustafa Kemal Atatürk’ün izinde yavaş yavaş yeşeren ümidi, toplumdaki değişimi, yoklukla geçen günleri ve beklenen zaferi hep birlikte yaşayacağız. Türk tarihçiliğinin büyük ismi İlber Ortaylı’nın Millî Mücadele günlerinin tarihi yönlerine tuttuğu ışığın aydınlığında Cumhuriyet’in ilk sabahını beraber karşılayacağız.
-                    </p>
-                    <div>
-                      <span class="fw-bolder text-black price me-2">130TL</span>
-                      <sup>
-                        <del class="oldPrice fw-bolder">210TL</del>
-                      </sup>
-                      
-                    </div>
-                    <button class="basketButton mt-2 fw-bolder" >Sepete Ekle</button>
-            </div>
-          </div>
-        </div>
+      
       </div>
 
     </main>
@@ -321,6 +129,8 @@
       type="text/javascript"
       src="assets/bootstrap/js/bootstrap.min.js"
     ></script>
+    <script src="./assets/jquery/jquery.min.js"></script>
+    <script src="./assets/toastr/toastr.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
