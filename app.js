@@ -227,11 +227,11 @@ coloseSepet.addEventListener("click",()=>{
              .then((data) => {
                  bookList = data;
                  console.log(bookList);
-                 resolve(); // Fetch işlemi tamamlandığında resolve çağrılır.
+                 resolve(); 
              })
              .catch(error => {
                  console.error('API hatası:', error);
-                 reject(error); // Fetch işlemi başarısız olursa reject çağrılır.
+                 reject(error); 
              });
      });
  };
